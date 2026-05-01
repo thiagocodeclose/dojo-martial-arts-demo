@@ -4,6 +4,7 @@ import { Oswald, Open_Sans } from 'next/font/google';
 import { getKorivaConfig, buildCssVars } from '@/lib/koriva-config';
 import './globals.css';
 
+import { KorivaLivePreview } from '@/components/KorivaLivePreview';
 const heading = Oswald({ subsets: ['latin'], weight: ['400', '500', '600', '700'], variable: '--font-heading' });
 const body    = Open_Sans({ subsets: ['latin'], weight: ['400', '500', '600'], variable: '--font-body' });
 
@@ -24,6 +25,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     <html lang="en" style={vars as React.CSSProperties}>
       <body className={`${heading.variable} ${body.variable} bg-dj-bg text-dj-text antialiased`}>
         {children}
+        <KorivaLivePreview />
       </body>
     </html>
   );
