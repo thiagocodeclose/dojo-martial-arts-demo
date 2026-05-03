@@ -91,7 +91,7 @@ function Hero() {
           {/* Japanese accent */}
           <div className="flex items-center gap-3 mb-6">
             <div className="h-px w-12 bg-dj-red" />
-            <span className="text-dj-gold font-heading text-sm uppercase tracking-[0.25em]">武士道 — Bushido</span>
+            <span data-cg-el="hero_eyebrow" className="text-dj-gold font-heading text-sm uppercase tracking-[0.25em]">武士道 — Bushido</span>
           </div>
 
           <h1 data-cg-el="hero_headline_1" className="font-heading font-bold text-6xl sm:text-7xl lg:text-8xl text-white leading-none mb-6">
@@ -100,13 +100,13 @@ function Hero() {
             STRENGTH.
           </h1>
 
-          <p className="text-[#8A8A8A] text-lg mb-8 max-w-lg leading-relaxed">{studioInfo.subheadline}</p>
+          <p data-cg-el="hero_subtitle" className="text-[#8A8A8A] text-lg mb-8 max-w-lg leading-relaxed">{studioInfo.subheadline}</p>
 
           <div className="flex flex-wrap gap-3">
-            <a href="#contact" className="inline-flex items-center gap-2 bg-dj-red hover:bg-[#A50000] text-white font-heading font-semibold text-sm uppercase tracking-widest px-8 py-4 transition-colors">
+            <a data-cg-el="hero_cta_primary" href="#contact" className="inline-flex items-center gap-2 bg-dj-red hover:bg-[#A50000] text-white font-heading font-semibold text-sm uppercase tracking-widest px-8 py-4 transition-colors">
               Start Free Trial <ArrowRight size={15} />
             </a>
-            <a href="#programs" className="inline-flex items-center gap-2 border border-[#2E2E2E] hover:border-white text-white font-heading font-semibold text-sm uppercase tracking-widest px-8 py-4 transition-colors">
+            <a data-cg-el="hero_cta_secondary" href="#programs" className="inline-flex items-center gap-2 border border-[#2E2E2E] hover:border-white text-white font-heading font-semibold text-sm uppercase tracking-widest px-8 py-4 transition-colors">
               Our Programs
             </a>
           </div>
