@@ -94,7 +94,7 @@ function Hero() {
             <span className="text-dj-gold font-heading text-sm uppercase tracking-[0.25em]">武士道 — Bushido</span>
           </div>
 
-          <h1 className="font-heading font-bold text-6xl sm:text-7xl lg:text-8xl text-white leading-none mb-6">
+          <h1 data-cg-el="hero_headline_1" className="font-heading font-bold text-6xl sm:text-7xl lg:text-8xl text-white leading-none mb-6">
             DISCIPLINE.<br />
             <span className="text-dj-red">RESPECT.</span><br />
             STRENGTH.
