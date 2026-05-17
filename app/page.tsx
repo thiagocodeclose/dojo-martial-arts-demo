@@ -425,7 +425,7 @@ function Footer() {
             <Facebook size={14} className="text-dj-muted" />
           </a>
         </div>
-        <p className="text-[#555] text-xs">Powered by <span className="text-dj-red">Koriva Sites</span></p>
+        <p className="text-[#555] text-xs">Powered by <span className="text-dj-red">Garrison365 Sites</span></p>
       </div>
     </footer>
   );
